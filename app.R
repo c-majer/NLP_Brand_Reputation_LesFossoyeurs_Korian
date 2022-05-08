@@ -8,53 +8,6 @@ library(dygraphs)
 library("readxl")
 library(datasets)
 
-#words_apprezza <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_apprezza.xlsx")
-#words_apprezza_tren <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_apprezza_tren.xlsx")
-#words_apprezza_five <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_apprezza_five.xlsx")
-#words_reclami <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_reclami.xlsx")
-#words_reclami_tren <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_reclami_tren.xlsx")
-#words_reclami_five <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_reclami_five.xlsx")
-
-#words_intro <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_intro.xlsx")
-#words_Chap_1 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_1.xlsx")
-#words_Chap_2 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_2.xlsx")
-#words_Chap_3 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_3.xlsx")
-#words_Chap_4 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_4.xlsx")
-#words_Chap_5 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_5.xlsx")
-#words_Chap_6 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_6.xlsx")
-#words_Chap_7 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_7.xlsx")
-#words_Chap_8 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_8.xlsx")
-#words_Chap_9 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_9.xlsx")
-#words_Chap_10 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_10.xlsx")
-#words_Chap_11 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_11.xlsx")
-#words_Chap_12 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_12.xlsx")
-#words_Chap_13 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_13.xlsx")
-#words_Chap_14 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_14.xlsx")
-#words_Chap_15 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_15.xlsx")
-#words_Chap_16 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_16.xlsx")
-#words_Chap_17 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_17.xlsx")
-#words_Chap_18 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_18.xlsx")
-#words_Chap_19 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_19.xlsx")
-#words_Chap_20 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_20.xlsx")
-#words_Chap_21 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_21.xlsx")
-#words_Chap_22 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_22.xlsx")
-#words_Chap_23 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_23.xlsx")
-#words_Chap_24 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_24.xlsx")
-#words_Chap_25 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_25.xlsx")
-#words_Chap_26 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_26.xlsx")
-#words_Chap_27 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_27.xlsx")
-#words_Chap_28 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_28.xlsx")
-#words_Chap_29 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_29.xlsx")
-#words_Chap_30 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_30.xlsx")
-#words_Chap_31 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_31.xlsx")
-#words_Chap_32 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_32.xlsx")
-#words_Chap_33 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_33.xlsx")
-#words_Chap_34 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_34.xlsx")
-#words_Chap_35 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_35.xlsx")
-#words_Chap_36 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_36.xlsx")
-#words_Chap_37 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_37.xlsx")
-#words_Chap_38 <- read_excel("C:/Users/camillo.majerczyk/Desktop/Korian_vs_LF/Korian_vs_LesFossoyeurs/data/words_Chap_38.xlsx")
-
 ### UI ###
 
 ui <- fluidPage( theme = shinytheme("cosmo"),
@@ -242,7 +195,7 @@ ui <- fluidPage( theme = shinytheme("cosmo"),
                  ## Footer
                  fluidRow(
                    column( width=2, offset= 5,
-                           actionLink(inputId= "githublink", label="Go to GitHub", icon=icon("github", "fa-2x"), onclick ="window.open('https://github.com/c-majer/HardForkTokens', '_blank')"),
+                           actionLink(inputId= "githublink", label="Go to GitHub", icon=icon("github", "fa-2x"), onclick ="window.open('https://github.com/c-majer/NLP_Brand_Reputation_LesFossoyeurs_Korian', '_blank')"),
                            br(), br(), br()
                    )
                  )
